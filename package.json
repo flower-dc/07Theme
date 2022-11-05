@@ -1,0 +1,55 @@
+{
+  "name": "07Theme",
+  "displayName": "07 Theme",
+  "version": "0.6.0",
+  "packageManager": "pnpm@7.5.0",
+  "description": "07 theme for VS Code",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "vs code theme"
+  ],
+  "files": [
+    "themes"
+  ],
+  "publisher": "flower607",
+  "scripts": {
+    "build": "esno src/index.ts",
+    "dev": "nodemon --watch src -e ts --exec \"esno src/index.ts\"",
+    "vscode:prepublish": "npm run build",
+    "lint": "eslint .",
+    "release": "npm run build && npx bumpp --commit --tag --push --all && vsce publish --no-dependencies"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "07 Light",
+        "uiTheme": "vs",
+        "path": "./themes/07-light.json"
+      },
+      {
+        "label": "07 Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/07-dark.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.19.4",
+    "@antfu/utils": "^0.5.0",
+    "@types/color": "^3.0.3",
+    "@types/node": "^17.0.23",
+    "color": "^4.2.3",
+    "eslint": "^8.12.0",
+    "esno": "^0.14.1",
+    "nodemon": "^2.0.15",
+    "tsup": "^5.12.4",
+    "typescript": "^4.6.3",
+    "vsce": "^2.7.0"
+  },
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "icon": "icon.png"
+}
