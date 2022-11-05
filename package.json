@@ -1,7 +1,7 @@
 {
   "name": "07Theme",
   "displayName": "07 Theme",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "packageManager": "pnpm@7.5.0",
   "description": "07 theme for VS Code",
   "categories": [
