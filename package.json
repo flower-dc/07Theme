@@ -13,6 +13,10 @@
   "files": [
     "themes"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flower-dc/07Theme"
+  },
   "publisher": "flower607",
   "scripts": {
     "build": "esno src/index.ts",
