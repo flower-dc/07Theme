@@ -21,7 +21,7 @@ export default function getTheme({ style, name }) {
 
   const selectionBackgroundInActive = pick({ light: '#efd5bf', dark: '#31322c' })
   const selectionBackgroundActive = pick({ light: '#efd5bf', dark: '#31322c' })
-  const selectionBackground = pick({ light: '#f1dabe', dark: '#514749' })
+  const selectionBackground = pick({ light: '#f1dabe', dark: '#31322c' })
 
   const theme = {
     name,
