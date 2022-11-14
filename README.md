@@ -20,4 +20,4 @@
 
 ## Thanks
 
-This project is based on [vscode-theme-vitesse](https://github.com/antfu/vscode-theme-vitesse).
+This project is based on [github-vscode-theme](https://github.com/primer/github-vscode-theme).
