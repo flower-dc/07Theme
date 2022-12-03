@@ -23,7 +23,7 @@ export const Fthemes = {
   border: ['#191919', '#eed0c7'],
 
   background: ['#201b1b', '#f9eee3'],
-  activeBackground: ['#261e1f', '#f6d9ba'],
+  activeBackground: ['#261e1f', '#f7e9d9'],
 
   comment: ['#758575dd', '#a0ada0'],
   string: ['#6e5e57', '#6e5e57'],

@@ -1,7 +1,7 @@
 {
   "name": "07Theme",
   "displayName": "07 Theme",
-  "version": "0.6.5",
+  "version": "0.6.6",
   "packageManager": "pnpm@7.5.0",
   "description": "07 theme for VS Code",
   "categories": [
@@ -28,14 +28,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "07 Light",
-        "uiTheme": "vs",
-        "path": "./themes/07-light.json"
-      },
-      {
         "label": "07 Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/07-dark.json"
+      },
+      {
+        "label": "07 Light",
+        "uiTheme": "vs",
+        "path": "./themes/07-light.json"
       }
     ]
   },

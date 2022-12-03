@@ -27,7 +27,7 @@ export default function getTheme({ style, name }) {
     name,
     base: pick({ light: 'vs', dark: 'vs-dark' }),
     colors: {
-      'focusBorder': '#00000000',
+      'focusBorder': '#7D70AF',
       foreground,
       'descriptionForeground': secondaryForeground,
       'errorForeground': ft('red'),

@@ -2,7 +2,7 @@
   "name": "07 Dark",
   "base": "vs-dark",
   "colors": {
-    "focusBorder": "#00000000",
+    "focusBorder": "#7D70AF",
     "foreground": "#dbd7caee",
     "descriptionForeground": "#dedcd590",
     "errorForeground": "#cb7676",

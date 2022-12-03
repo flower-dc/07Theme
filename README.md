@@ -1,12 +1,18 @@
-<h1 align="center">07Theme for VS Code</h1>
+<h1 align="center">07 Theme for VS Code</h1>
 
-<h3 align=center>Preview</h3>
-
-<img alt="PreviewImage" src="https://wx1.sinaimg.cn/large/0069ge3bgy1h7ucbvfvkuj31pm17qkd6.jpg">
+<h2 align=center>preview</h2>
+<sub>
+<h3>DarkMode</h3>
+<img alt="dark-mode" src="https://i.postimg.cc/y8VZ75TQ/i-Shot-2022-12-03-13-57-15.png">
+<sub>
+<br />
+<br />
+<sub>
+<h1>LightMode</h1>
+<img alt="light-mode" src="https://i.postimg.cc/CK95n6jV/i-Shot-2022-12-03-13-58-25.png">
 <sub>
 
 ## Match with System
-
 <!--eslint-skip-->
 
 ```jsonc
